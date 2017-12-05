@@ -1,5 +1,10 @@
 [source.crates-io]
 replace-with = "vendored-sources"
 
+[source."https://github.com/staktrace/quoted-printable"]
+git = "https://github.com/staktrace/quoted-printable"
+branch = "test"
+replace-with = "vendored-sources"
+
 [source.vendored-sources]
 directory = "/home/kats/zspace/cargo-vendor-replace/crate1/vendor"

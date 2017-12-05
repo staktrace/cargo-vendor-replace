@@ -5,3 +5,6 @@ authors = ["Kartikaya Gupta <kgupta@mozilla.com>"]
 
 [dependencies]
 quoted_printable = "0.4.0"
+
+[replace]
+"quoted_printable:0.4.0" = { git = "https://github.com/staktrace/quoted-printable", branch="test" }

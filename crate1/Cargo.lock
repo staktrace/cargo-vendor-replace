@@ -8,7 +8,14 @@ dependencies = [
 [[package]]
 name = "quoted_printable"
 version = "0.4.0"
+source = "git+https://github.com/staktrace/quoted-printable?branch=test#83081e8af82f6d6ed4c7b64cf64e2dd144b03c9a"
+
+[[package]]
+name = "quoted_printable"
+version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+replace = "quoted_printable 0.4.0 (git+https://github.com/staktrace/quoted-printable?branch=test)"
 
 [metadata]
+"checksum quoted_printable 0.4.0 (git+https://github.com/staktrace/quoted-printable?branch=test)" = "<none>"
 "checksum quoted_printable 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)" = "4126fa98c6d7b166e6a29a24ab96721d618759d803df6a8cb35d6140da475b5a"

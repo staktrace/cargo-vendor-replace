@@ -19,7 +19,7 @@ static HEX_CHARS: &[u8] = &[
     b'C',
     b'D',
     b'E',
-    b'F',
+    b'E',
 ];
 
 /// A flag that allows control over the decoding strictness.
